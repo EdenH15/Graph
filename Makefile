@@ -129,29 +129,53 @@ Exe1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exe1.dir/build.make CMakeFiles/Exe1.dir/build
 .PHONY : Exe1/fast
 
-graph.o: graph.cpp.o
-.PHONY : graph.o
+Algorithms.o: Algorithms.cpp.o
+.PHONY : Algorithms.o
 
 # target to build an object file
-graph.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exe1.dir/build.make CMakeFiles/Exe1.dir/graph.cpp.o
-.PHONY : graph.cpp.o
+Algorithms.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exe1.dir/build.make CMakeFiles/Exe1.dir/Algorithms.cpp.o
+.PHONY : Algorithms.cpp.o
 
-graph.i: graph.cpp.i
-.PHONY : graph.i
+Algorithms.i: Algorithms.cpp.i
+.PHONY : Algorithms.i
 
 # target to preprocess a source file
-graph.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exe1.dir/build.make CMakeFiles/Exe1.dir/graph.cpp.i
-.PHONY : graph.cpp.i
+Algorithms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exe1.dir/build.make CMakeFiles/Exe1.dir/Algorithms.cpp.i
+.PHONY : Algorithms.cpp.i
 
-graph.s: graph.cpp.s
-.PHONY : graph.s
+Algorithms.s: Algorithms.cpp.s
+.PHONY : Algorithms.s
 
 # target to generate assembly for a file
-graph.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exe1.dir/build.make CMakeFiles/Exe1.dir/graph.cpp.s
-.PHONY : graph.cpp.s
+Algorithms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exe1.dir/build.make CMakeFiles/Exe1.dir/Algorithms.cpp.s
+.PHONY : Algorithms.cpp.s
+
+Graph.o: Graph.cpp.o
+.PHONY : Graph.o
+
+# target to build an object file
+Graph.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exe1.dir/build.make CMakeFiles/Exe1.dir/Graph.cpp.o
+.PHONY : Graph.cpp.o
+
+Graph.i: Graph.cpp.i
+.PHONY : Graph.i
+
+# target to preprocess a source file
+Graph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exe1.dir/build.make CMakeFiles/Exe1.dir/Graph.cpp.i
+.PHONY : Graph.cpp.i
+
+Graph.s: Graph.cpp.s
+.PHONY : Graph.s
+
+# target to generate assembly for a file
+Graph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exe1.dir/build.make CMakeFiles/Exe1.dir/Graph.cpp.s
+.PHONY : Graph.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -177,6 +201,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exe1.dir/build.make CMakeFiles/Exe1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+structures.o: structures.cpp.o
+.PHONY : structures.o
+
+# target to build an object file
+structures.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exe1.dir/build.make CMakeFiles/Exe1.dir/structures.cpp.o
+.PHONY : structures.cpp.o
+
+structures.i: structures.cpp.i
+.PHONY : structures.i
+
+# target to preprocess a source file
+structures.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exe1.dir/build.make CMakeFiles/Exe1.dir/structures.cpp.i
+.PHONY : structures.cpp.i
+
+structures.s: structures.cpp.s
+.PHONY : structures.s
+
+# target to generate assembly for a file
+structures.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Exe1.dir/build.make CMakeFiles/Exe1.dir/structures.cpp.s
+.PHONY : structures.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Exe1"
-	@echo "... graph.o"
-	@echo "... graph.i"
-	@echo "... graph.s"
+	@echo "... Algorithms.o"
+	@echo "... Algorithms.i"
+	@echo "... Algorithms.s"
+	@echo "... Graph.o"
+	@echo "... Graph.i"
+	@echo "... Graph.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... structures.o"
+	@echo "... structures.i"
+	@echo "... structures.s"
 .PHONY : help
 
 

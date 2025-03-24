@@ -4,5 +4,9 @@ project(Exe1)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Exe1 main.cpp
-        graph.cpp
-        graph.h)
+        Graph.cpp
+        Graph.h
+        structures.h
+        structures.cpp
+        Algorithms.h
+        Algorithms.cpp)

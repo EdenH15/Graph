@@ -3,8 +3,8 @@
 //
 using namespace std;
 #include <cstdio>
+#include "Graph.h"
 #include <iostream>
-#include "graph.h"
 
 namespace graph {
 
@@ -115,9 +115,12 @@ namespace graph {
             delete[] adjacencyList;
             adjacencyList = nullptr;
         }
+        int getNumVertices() {
+          return numV;
+        }
 
 
-        };
+        }
 
 
 

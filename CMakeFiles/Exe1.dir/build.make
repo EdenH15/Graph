@@ -83,33 +83,65 @@ CMakeFiles/Exe1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Exe1.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edenh15/CLionProjects/Exe1/main.cpp -o CMakeFiles/Exe1.dir/main.cpp.s
 
-CMakeFiles/Exe1.dir/graph.cpp.o: CMakeFiles/Exe1.dir/flags.make
-CMakeFiles/Exe1.dir/graph.cpp.o: graph.cpp
-CMakeFiles/Exe1.dir/graph.cpp.o: CMakeFiles/Exe1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edenh15/CLionProjects/Exe1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Exe1.dir/graph.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Exe1.dir/graph.cpp.o -MF CMakeFiles/Exe1.dir/graph.cpp.o.d -o CMakeFiles/Exe1.dir/graph.cpp.o -c /home/edenh15/CLionProjects/Exe1/graph.cpp
+CMakeFiles/Exe1.dir/Graph.cpp.o: CMakeFiles/Exe1.dir/flags.make
+CMakeFiles/Exe1.dir/Graph.cpp.o: Graph.cpp
+CMakeFiles/Exe1.dir/Graph.cpp.o: CMakeFiles/Exe1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edenh15/CLionProjects/Exe1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Exe1.dir/Graph.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Exe1.dir/Graph.cpp.o -MF CMakeFiles/Exe1.dir/Graph.cpp.o.d -o CMakeFiles/Exe1.dir/Graph.cpp.o -c /home/edenh15/CLionProjects/Exe1/Graph.cpp
 
-CMakeFiles/Exe1.dir/graph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Exe1.dir/graph.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edenh15/CLionProjects/Exe1/graph.cpp > CMakeFiles/Exe1.dir/graph.cpp.i
+CMakeFiles/Exe1.dir/Graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Exe1.dir/Graph.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edenh15/CLionProjects/Exe1/Graph.cpp > CMakeFiles/Exe1.dir/Graph.cpp.i
 
-CMakeFiles/Exe1.dir/graph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Exe1.dir/graph.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edenh15/CLionProjects/Exe1/graph.cpp -o CMakeFiles/Exe1.dir/graph.cpp.s
+CMakeFiles/Exe1.dir/Graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Exe1.dir/Graph.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edenh15/CLionProjects/Exe1/Graph.cpp -o CMakeFiles/Exe1.dir/Graph.cpp.s
+
+CMakeFiles/Exe1.dir/structures.cpp.o: CMakeFiles/Exe1.dir/flags.make
+CMakeFiles/Exe1.dir/structures.cpp.o: structures.cpp
+CMakeFiles/Exe1.dir/structures.cpp.o: CMakeFiles/Exe1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edenh15/CLionProjects/Exe1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Exe1.dir/structures.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Exe1.dir/structures.cpp.o -MF CMakeFiles/Exe1.dir/structures.cpp.o.d -o CMakeFiles/Exe1.dir/structures.cpp.o -c /home/edenh15/CLionProjects/Exe1/structures.cpp
+
+CMakeFiles/Exe1.dir/structures.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Exe1.dir/structures.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edenh15/CLionProjects/Exe1/structures.cpp > CMakeFiles/Exe1.dir/structures.cpp.i
+
+CMakeFiles/Exe1.dir/structures.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Exe1.dir/structures.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edenh15/CLionProjects/Exe1/structures.cpp -o CMakeFiles/Exe1.dir/structures.cpp.s
+
+CMakeFiles/Exe1.dir/Algorithms.cpp.o: CMakeFiles/Exe1.dir/flags.make
+CMakeFiles/Exe1.dir/Algorithms.cpp.o: Algorithms.cpp
+CMakeFiles/Exe1.dir/Algorithms.cpp.o: CMakeFiles/Exe1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/edenh15/CLionProjects/Exe1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Exe1.dir/Algorithms.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Exe1.dir/Algorithms.cpp.o -MF CMakeFiles/Exe1.dir/Algorithms.cpp.o.d -o CMakeFiles/Exe1.dir/Algorithms.cpp.o -c /home/edenh15/CLionProjects/Exe1/Algorithms.cpp
+
+CMakeFiles/Exe1.dir/Algorithms.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Exe1.dir/Algorithms.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edenh15/CLionProjects/Exe1/Algorithms.cpp > CMakeFiles/Exe1.dir/Algorithms.cpp.i
+
+CMakeFiles/Exe1.dir/Algorithms.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Exe1.dir/Algorithms.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edenh15/CLionProjects/Exe1/Algorithms.cpp -o CMakeFiles/Exe1.dir/Algorithms.cpp.s
 
 # Object files for target Exe1
 Exe1_OBJECTS = \
 "CMakeFiles/Exe1.dir/main.cpp.o" \
-"CMakeFiles/Exe1.dir/graph.cpp.o"
+"CMakeFiles/Exe1.dir/Graph.cpp.o" \
+"CMakeFiles/Exe1.dir/structures.cpp.o" \
+"CMakeFiles/Exe1.dir/Algorithms.cpp.o"
 
 # External object files for target Exe1
 Exe1_EXTERNAL_OBJECTS =
 
 Exe1: CMakeFiles/Exe1.dir/main.cpp.o
-Exe1: CMakeFiles/Exe1.dir/graph.cpp.o
+Exe1: CMakeFiles/Exe1.dir/Graph.cpp.o
+Exe1: CMakeFiles/Exe1.dir/structures.cpp.o
+Exe1: CMakeFiles/Exe1.dir/Algorithms.cpp.o
 Exe1: CMakeFiles/Exe1.dir/build.make
 Exe1: CMakeFiles/Exe1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/edenh15/CLionProjects/Exe1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Exe1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/edenh15/CLionProjects/Exe1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Exe1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Exe1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
