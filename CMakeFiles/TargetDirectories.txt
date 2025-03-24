@@ -1,0 +1,3 @@
+/home/edenh15/CLionProjects/Exe1/CMakeFiles/Exe1.dir
+/home/edenh15/CLionProjects/Exe1/CMakeFiles/edit_cache.dir
+/home/edenh15/CLionProjects/Exe1/CMakeFiles/rebuild_cache.dir

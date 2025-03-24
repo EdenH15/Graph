@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/Exe1.dir/graph.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}
