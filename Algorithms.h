@@ -7,15 +7,17 @@
 #include "Graph.h"
 #include <iostream>
 
+
 namespace graph {
 
     class Algorithms {
     public:
         static Graph bfs(Graph g,int srcVertex);
         static Graph dfs(Graph g,int srcVertex);
-        static Graph dijkstra(Graph g,int srcVertex);
-        static Graph prim(Graph g);
-        static Graph kruskal(Graph g);
+        static void recDfs(Graph& g,int srcVertex,Graph& dfsTree,bool* visited);
+        //static Graph dijkstra(Graph g,int srcVertex);
+        //static Graph prim(Graph g);
+        //static Graph kruskal(Graph g);
 
 };
 

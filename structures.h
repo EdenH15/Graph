@@ -17,7 +17,20 @@ namespace graph {
         Queue();
         void enqueue(int value);
         int dequeue();
+        bool isEmpty();
     };
+
+    class Stack{
+      private:
+        static const int MAX_SIZE = 100;
+        int data[MAX_SIZE];
+        int top;
+        public:
+          Stack();
+          void push(int value);
+          int pop();
+          bool isEmpty();
+          };
 
 }
 

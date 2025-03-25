@@ -115,9 +115,13 @@ namespace graph {
             delete[] adjacencyList;
             adjacencyList = nullptr;
         }
-        int getNumVertices() {
+        int Graph::get_numV() {
           return numV;
         }
+        Neighbor* Graph::getNeighbors(int vertex) {
+          return adjacencyList[vertex];
+        }
+
 
 
         }

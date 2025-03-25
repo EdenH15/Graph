@@ -19,14 +19,15 @@ namespace graph {
             int numV;
             Neighbor** adjacencyList;
         public:
-            Graph(int vertices);
-            int getNumVertices();
+            explicit Graph(int vertices);
+            int get_numV();
+            Neighbor* getNeighbors(int vertex);
+            void addNeighbor(int src, int dst,int weight=1);
             void addEdge(int src, int dst, int weight=1);
             bool edgeExists(int src, int dst);
             void removeEdge(int src, int dst);
             void removeEdgeOneWay(int src, int dst);
             void print_graph();
-            void addNeighbor(int src, int dst, int weight);
             void releaseMemory();
     };
 
